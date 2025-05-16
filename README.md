@@ -113,15 +113,3 @@ We adopt these codes to create this repository. We sincerely appreciate the grea
 
 ## ✉️ Contact
 If you have questions, please open an issue mentioning @AtsuMiyai or send an email to miyai[at]cvm.t.u-tokyo.ac.jp
-
-
-
-## 📢 Citaiton
-If you find our work interesting or use our code/models, please consider citing:
-```bibtex
-@article{miyai2025webchore,
-  title={Unsolvable Problem Detection: Evaluating Trustworthiness of Vision Language Models},
-  author={Miyai, Atsuyuki and Yang, Jingkang and Zhang, Jingyang and Ming, Yifei and Yu, Qing and Irie, Go and Li, Yixuan and Li, Hai and Liu, Ziwei and Aizawa, Kiyoharu},
-  journal={arXiv preprint arXiv:2403.20331},
-  year={2024}
-}
