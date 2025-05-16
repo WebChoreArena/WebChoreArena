@@ -101,6 +101,20 @@ The columns in this JSON file are defined as follows:
 Running the full WebChoreArena benchmark can cost several hundred dollars in API usage. Therefore, we also provide a small subset of tasks. For each directory, the file `small_set_ids.txt` inside `config_files` specifies the task IDs used in the small subset. This subset corresponds to the one used in the subset experiments reported in Table 2 of the paper.
 
 
+## ✅ Final Results
+
+
+|               |                  | Shopping | Admin | Reddit | GitLab | Cross | Overall |
+|---------------|------------------|----------|-------|--------|--------|--------|---------|
+| **AgentOccam**| GPT-4o           | 10.3     | 4.5   | 9.9    | 7.1    | 0.0    | 6.8     |
+|               | Claude 3.7 Sonnet| 27.4     | 28.8  | 23.1   | 22.8   | 7.7    | 23.5    |
+|               | Gemini 2.5 Pro   | 41.9     | 42.4  | 44.0   | 38.6   | 10.8   | 37.8    |
+| **BrowserGym**| GPT-4o           | 0.9      | 2.3   | 5.5    | 3.9    | 0.0    | 2.6     |
+|               | Claude 3.7 Sonnet| 16.2     | 26.5  | 18.7   | 25.2   | 30.8   | 23.1    |
+|               | Gemini 2.5 Pro   | 47.9     | 50.0  | 44.0   | 40.2   | 40.0   | 44.9    |
+
+
+
 ## 🤝 Acknowledgement
 We adopt these codes to create this repository. We sincerely appreciate the great work/codebases.
 * [WebArena](https://github.com/web-arena-x/webarena/tree/main)
