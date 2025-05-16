@@ -62,7 +62,7 @@ source scripts/login_setup.sh
 Next, you can implement the following command to produce the result.
 
 ```bash
-bash scripts/claude/shopping/shopping_tips.sh
+bash scripts/shopping/claude.sh
 ```
 
 When you finish the inference, please implement the following command to get the result.
