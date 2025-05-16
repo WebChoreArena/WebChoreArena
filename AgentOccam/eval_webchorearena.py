@@ -61,7 +61,7 @@ def run():
         if os.path.exists(os.path.join(dstdir, f"{task_config['task_id']}.json")):
             print(f"Skip {task_config['task_id']}.")
             continue
-        subprocess.run("bash scripts/run_env_setup.sh", shell=True)
+        subprocess.run("bash scripts/login_setup.sh", shell=True)
         if task_config['task_id'] in list(range(600, 650))+list(range(681, 689)):
             print("Reddit post task. Sleep 30 mins.")
             time.sleep(1800)

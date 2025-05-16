@@ -21,7 +21,7 @@ Set up the web servers and environment URLs (find more details in the [webarena 
 
 
 ## Replace URLs
-You need to replace <your_base_url> in files (e.g., `env_setup.sh`) with your actual URL (for AWS, it typically starts with ec2-). To achieve this, run the following command:
+You need to replace <your_base_url> in files (e.g., `scripts/env_setup.sh`) with your actual URL (for AWS, it typically starts with ec2-). To achieve this, run the following command:
 
 ```bash
 python utils/replace_script.py --your_url "your url (e.g., ec2..)"
@@ -31,7 +31,7 @@ python utils/replace_script.py --your_url "your url (e.g., ec2..)"
 Run the following command to create the task JSON file.
 
 ```bash
-source env_setup.sh
+source scripts/env_setup.sh
 cd config_files
 python generate_test_data_new_shopping_admin.py
 python generate_test_data_new_shopping.py
@@ -56,7 +56,7 @@ export GEMINI_API_KEY='your-api-key-here'
 
 Next, implement the following command for auto-login.
 ```bash
-source scripts/run_env_setup.sh
+source scripts/login_setup.sh
 ```
 
 Next, you can implement the following command to produce the result.
@@ -84,6 +84,6 @@ However, resetting the environment more frequently than instructed is perfectly 
 If a task is stuck on the admin or login page, it likely means that auto-login has failed.
 Please try running:
 ```bash
-source scripts/run_env_setup.sh
+source scripts/login_setup.sh
 ```
 or investigate other possible reasons why the login might be failing.

@@ -5,7 +5,7 @@ import argparse
 
 def argparse_args():
     parser = argparse.ArgumentParser(description="Replace strings in files within a directory.")
-    parser.add_argument("directory", type=str, help="Directory to search for files.", default=".")
+    parser.add_argument("--directory", type=str, help="Directory to search for files.", default="scripts")
     parser.add_argument("--your_url", type=str, help="String to replace with.")
     return parser.parse_args()
 
@@ -31,7 +31,7 @@ def replace_in_directory(directory, your_url):
 
 
 def main(args):
-    replace_in_directory(args.target_directory, args.your_url)
+    replace_in_directory(args.directory, args.your_url)
 
 
 if __name__ == "__main__":
