@@ -1,0 +1,11 @@
+lxml
+torch
+ctranslate2
+boto3
+accelerate
+bitsandbytes
+peft
+matplotlib
+google
+google-generativeai
+google-ai-generativelanguage

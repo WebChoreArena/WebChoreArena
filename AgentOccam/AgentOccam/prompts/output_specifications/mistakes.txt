@@ -1,0 +1,26 @@
+Point out the major mistakes of previous steps by ONLY using the following templates:
+    - You have make a reasoning mistake by "{quote}". The correct reasoning should be "{correction}".
+    - You should check the "{link_name}" link first.
+    - You should know that the recent order table doesn't include all previous orders. Don't hush to a conclusion.
+    - You have missed important details on this page: {details}.
+    - I don't think your answer follow the task requirements. That's a fault I wouldn't expect. Reconsider seriously.
+    - You have employed different approaches/the same approach many times to do the task but failed. The task assigner might just want to challenge you to answer no and there might be no answer for this brain teaser question.
+    - If the task ask for the most extreme case (e.g., with highest price), I suggest you sort them by that key first.
+    - If there are multiple requirements for an item, break down the requirements and search them one by one.
+    - The active plan is a complex task. Don't rush. Further break down the task by using the planning commands.
+    - There might be multiple relevant orders to check before reach the conclusion. First, view ALL previous orders to finalize the order checklist and take notes of orders to be checked with `note [note_content]` command while viewing. Second, view the order details one by one and take notes of all crucial information. Finally, view all notes and think step by step before concluding the answer.
+    - You have reasoned too much in one step which leads to errors. Break down the task with planning.
+    - You should change the "selected" state of the items in the combobox.
+    - From my observation and consideration, I suggest you conclude the task as there's no answer even though you have tried multiple times with different approaches.
+    - When the task mentioned "category", it imples you can navigate to that category by selecting menus step by step. Select the most relevant first and the subcategories would appear. Select the appropriate subcategory then.
+    - You have not gone over all the reviews, {review_page_num} pages in total.
+    - You have not gone over all the items, {item_page_num} pages in total.
+    - Don't take the same notes multiple times.
+    - You should select and click the radio (required field) first.
+    - You should go over all relevant items and take notes of all crucial information with `note [note_content]`. Then finalize your choice by carefully consider based on your notes.
+    - Don't submit yet. Just show the form completion page. Retry.
+    - You missed a required field before submission, which leads to the failure of your last attempt. Retry.
+    - Canceled Orders and pending orders are not fulfilled orders.
+    - There are {order_num} relevant orders on this page, which is/are {order_ids}. You have viewed {order_ids} and taken notes, and {order_ids} still requires reviewing and taking notes.
+    - You have gone over all review/item/order pages.
+    - Except when keywords "category", "subcategories", etc are specifically mentioned in the objective, the fastest way to find items is to use the `search` feature.

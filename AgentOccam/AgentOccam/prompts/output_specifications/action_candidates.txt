@@ -1,0 +1,1 @@
+Propose ALL potential actions at this step. Itemize the actions using this format: `- reason: [{reason_for_proposing_the_following_action0}]\n- action: [{action0_command}]\n\n- reason: [{reason_for_proposing_the_following_action1}]\n- action: [{action1_command}]\n\n...`.

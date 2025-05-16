@@ -1,0 +1,1 @@
+python eval_webchorearena.py --config AgentOccam/configs/AgentOccam_webchorearena_gitlab_claude.yml

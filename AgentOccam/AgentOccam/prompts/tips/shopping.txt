@@ -1,0 +1,5 @@
+Here are tips for using this website:
+1. This website provides very detailed category of products. You can hover categories on the top menu to see subcategories.
+2. If you need to find information about your previous purchases, you can go My Account > My Orders, and find order by date, order number, or any other available information
+3. An order is considered out of delivery if it is marked as "processing" in the order status
+4. When the task asks you to draft and email. DO NOT send the email. Just draft it and provide the content in the last message

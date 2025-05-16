@@ -1,0 +1,76 @@
+logging: True
+verbose: 1
+debug: False
+logdir: "AgentOccam-Trajectories_gemini-2.5-pro-exp-03-25/shopping/auto"
+logname: "AgentOccam"
+max_steps: 50
+agent:
+  type: "AgentOccam"
+  others:
+    max_steps: 50
+    logname: "AgentOccam"
+    logging: True
+    verbose: 1
+    debug: False
+  actor:
+    debug: 0
+    verbose: 1
+    number: 1
+    model: "gemini-2.5-pro-preview-03-25"
+    documented_interaction_elements: ["url", "plan", "reason", "observation summary", "retained element ids", "observation highlight"]
+    online_interaction_elements: []
+    input: ["step", "objective", "previous plans", "interaction history", "current observation"]
+    interaction_history:
+      verbose: True
+      type: ["text"]
+      step_num: "all"
+    current_observation:
+      type: ["auto"]
+      auto: True
+    output: ["interaction history summary", "observation description", "reason", "action", "observation highlight"]
+    planning_command: ["branch", "prune"]
+    tips: True
+    navigation_command: ["click", "type", "stop", "note", "go_back"]
+    play: ["step", "objective", "previous plans", "observation description", "reason", "action"]
+    trash: ["objective", "step", "url", "instruction", "online input", "response"]
+  critic:
+    mode: false
+    debug: 0
+    verbose: 1
+    model: "gemini-2.5-pro-exp-03-25"
+    documented_interaction_elements: []
+    online_interaction_elements: []
+    character: "normal"
+    input: ["objective", "previous plans", "interaction history", "step", "current observation"]
+    interaction_history:
+      verbose: True
+      type: ["text"]
+      step_num: "all"
+    current_observation:
+      type: ["text"]
+    output: ["observation description", "mistakes"]
+    trash: ["instruction", "online input", "response"]
+  judge:
+    mode: false
+    debug: 0
+    verbose: 1
+    model: "gemini-2.5-pro-exp-03-25"
+    documented_interaction_elements: []
+    online_interaction_elements: []
+    strict: false
+    input: ["objective", "previous plans", "interaction history", "step", "current observation", "action choices"]
+    interaction_history:
+      verbose: True
+      type: ["text"]
+      step_num: "all"
+    current_observation:
+      type: ["text"]
+    output: ["plan progress assessment", "action assessment", "action selection"]
+    trash: ["instruction", "online input", "response"]
+env:
+  fullpage: true
+  prune: true
+  max_browser_rows: 500
+  relative_task_dir: "new_tasks/shopping"
+  headless: True
+  task_ids: [20000, 20001, 20002, 20003, 20004, 20010, 20011, 20012, 20013, 20014, 20020, 20021, 20022, 20023, 20024, 20030, 20031, 20032, 20033, 20034, 20040, 20041, 20042, 20043, 20044, 20050, 20051, 20052, 20053, 20054, 20060, 20061, 20062, 20063, 20064, 20070, 20071, 20072, 20073, 20074, 20080, 20081, 20082, 20083, 20084, 20090, 20091, 20100, 20101, 20102, 20103, 20104, 20110, 20111, 20112, 20113, 20114, 20120, 20121, 20122, 20123, 20124, 20130, 20131, 20132, 20133, 20134, 20140, 20141, 20142, 20143, 20144, 20150, 20151, 20152, 20153, 20154, 20160, 20161, 20162, 20170, 20171, 20172, 20173, 20174, 20180, 20181, 20182, 20183, 20184, 20190, 20191, 20192, 20193, 20194, 20200, 20201, 20202, 20203, 20204, 20210, 20211, 20220, 20221, 20222, 20223, 20224, 20230, 20231, 20232, 20233, 20240, 20241, 20242, 20243, 20244, 20245]

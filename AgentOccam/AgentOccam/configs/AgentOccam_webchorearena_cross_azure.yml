@@ -1,0 +1,76 @@
+logging: True
+verbose: 1
+debug: False
+logdir: "AgentOccam-Trajectories_gpt-4o-2024-05-13-azure/cross_sites/auto"
+logname: "AgentOccam"
+max_steps: 50
+agent:
+  type: "AgentOccam"
+  others:
+    max_steps: 50
+    logname: "AgentOccam"
+    logging: True
+    verbose: 1
+    debug: False
+  actor:
+    debug: 0
+    verbose: 1
+    number: 1
+    model: "gpt-4o-2024-05-13-azure"
+    documented_interaction_elements: ["url", "plan", "reason", "observation summary", "retained element ids", "observation highlight"]
+    online_interaction_elements: []
+    input: ["step", "objective", "previous plans", "interaction history", "current observation"]
+    interaction_history:
+      verbose: True
+      type: ["text"]
+      step_num: "all"
+    current_observation:
+      type: ["auto"]
+      auto: True
+    output: ["interaction history summary", "observation description", "reason", "action", "observation highlight"]
+    planning_command: ["branch", "prune"]
+    tips: True
+    navigation_command: ["click", "type", "stop", "note", "go_back"]
+    play: ["step", "objective", "previous plans", "observation description", "reason", "action"]
+    trash: ["objective", "step", "url", "instruction", "online input", "response"]
+  critic:
+    mode: false
+    debug: 0
+    verbose: 1
+    model: "gpt-4o-2024-05-13-azure"
+    documented_interaction_elements: []
+    online_interaction_elements: []
+    character: "normal"
+    input: ["objective", "previous plans", "interaction history", "step", "current observation"]
+    interaction_history:
+      verbose: True
+      type: ["text"]
+      step_num: "all"
+    current_observation:
+      type: ["text"]
+    output: ["observation description", "mistakes"]
+    trash: ["instruction", "online input", "response"]
+  judge:
+    mode: false
+    debug: 0
+    verbose: 1
+    model: "gpt-4o-2024-05-13-azure"
+    documented_interaction_elements: []
+    online_interaction_elements: []
+    strict: false
+    input: ["objective", "previous plans", "interaction history", "step", "current observation", "action choices"]
+    interaction_history:
+      verbose: True
+      type: ["text"]
+      step_num: "all"
+    current_observation:
+      type: ["text"]
+    output: ["plan progress assessment", "action assessment", "action selection"]
+    trash: ["instruction", "online input", "response"]
+env:
+  fullpage: true
+  prune: true
+  max_browser_rows: 500
+  relative_task_dir: "new_tasks/cross_sites"
+  headless: True
+  task_ids: [50000, 50001, 50002, 50010, 50011, 50012, 50013, 50014, 50020, 50021, 50022, 50023, 50024, 50030, 50031, 50032, 50033, 50034, 50040, 50050, 50051, 50052, 50060, 50061, 50062, 50063, 50064, 50070, 50071, 50072, 50073, 50074, 50080, 50081, 50082, 50083, 50084, 50090, 50091, 50092, 50093, 50100, 50101, 50102, 50103, 50104, 50110, 50111, 50112, 50113, 50120, 50121, 50122, 50123, 50124, 50130, 50131, 50132, 50133, 50134, 50140, 50141, 50142, 50143, 50144]

@@ -1,0 +1,4 @@
+Here are tips for using this website:
+1. when the task mentions subreddit, it is referring to ‘forum'
+2. if you need find a relevant subreddit or forum, you can find the name after clicking "alphabetical" in the "Forum" tab.
+3. if you have to find submissions (posts) or comments by a particular user, visit reddit.site/user/<user name> to see the list

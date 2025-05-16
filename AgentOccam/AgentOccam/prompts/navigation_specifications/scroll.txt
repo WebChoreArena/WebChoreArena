@@ -1,0 +1,1 @@
+scroll [down/up] [reason]: To navigate the webpage content. E.g., `scroll [up] [Previous observations contain a link that might be useful.]`

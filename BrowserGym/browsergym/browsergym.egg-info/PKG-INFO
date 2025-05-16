@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: browsergym
+Version: 0.13.3
+Summary: BrowserGym: a gym environment for web task automation in the Chromium browser
+Author: Rim Assouel, Léo Boisvert, Massimo Caccia, Alex Drouin, Maxime Gasse, Imene Kerboua, Alex Lacoste, Thibault Le Sellier De Chezelles, Tom Marty
+License: Apache-2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >3.7
+Description-Content-Type: text/markdown
+Requires-Dist: browsergym-core==0.13.3
+Requires-Dist: browsergym-miniwob==0.13.3
+Requires-Dist: browsergym-webarena==0.13.3
+Requires-Dist: browsergym-visualwebarena==0.13.3
+Requires-Dist: browsergym-assistantbench==0.13.3
+Requires-Dist: browsergym-experiments==0.13.3
+Requires-Dist: browsergym-workarena>=0.4.1
+Requires-Dist: weblinx-browsergym>=0.0.1dev14

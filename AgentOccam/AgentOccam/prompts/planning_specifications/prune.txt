@@ -1,0 +1,1 @@
+prune [resume_plan_id] [reason]: To return to a previous plan state when the current plan is deemed impractical. Enter the ID of the plan state you want to resume. E.g., `prune [5] [The current page lacks items "black speaker," prompting a return to the initial page to restart the item search.]`

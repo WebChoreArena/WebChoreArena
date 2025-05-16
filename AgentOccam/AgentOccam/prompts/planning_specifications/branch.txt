@@ -1,0 +1,1 @@
+branch [parent_plan_id] [new_subplan_intent]: To create a new subplan based on PREVIOUS PLANS. Ensure the new subplan is connected to the appropriate parent plan by using its ID. E.g., `branch [12] [Navigate to the "Issue" page to check all the issues.]`
