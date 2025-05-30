@@ -10,10 +10,11 @@
 <br>
     <a href='https://atsumiyai.github.io/' target='_blank'>Atsuyuki Miyai</a>&emsp;
     Zaiying Zhao&emsp;
-    Kazuki Egashira&emsp;
-    Atsuki Sato&emsp;
+    <a href='https://www.sri.inf.ethz.ch/people/kazuki' target='_blank'>Kazuki Egashira</a>&emsp;
+    <a href='https://atsukisato.github.io/' target='_blank'>Atsuki Sato</a>&emsp;
     Tatsumi Sunada&emsp;
-    Shota Onohara&emsp;
+    <a href='https://atsukisato.github.io/' target='_blank'>Atsuki Sato</a>&emsp;
+    <a href='https://www.linkedin.com/in/shota-onohara/' target='_blank'>Shota Onohara</a>&emsp;
     Hiromasa Yamanishi&emsp;
     Mashiro Toyooka&emsp;
     Kunato Nishina&emsp;
@@ -32,7 +33,7 @@
 | <p align="justify"><b>Figure 1. The Overview of The WebChoreArena Challenge.</b> WebChoreArena extends WebArena by introducing more complex and labor-intensive tasks, pushing the boundaries of agent capabilities. This enhanced benchmark allows for a clearer evaluation of progress in advanced models and reveals that even powerful models such as Gemini 2.5 Pro still have significant room for improvement.
 
 ## 🚀 News
-- 2024.05: We make this codebase public.
+- 2025.05: We make this codebase public.
 
 
 ## 📕 Abstract
