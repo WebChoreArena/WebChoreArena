@@ -13,7 +13,6 @@
     <a href='https://www.sri.inf.ethz.ch/people/kazuki' target='_blank'>Kazuki Egashira</a>&emsp;
     <a href='https://atsukisato.github.io/' target='_blank'>Atsuki Sato</a>&emsp;
     Tatsumi Sunada&emsp;
-    <a href='https://atsukisato.github.io/' target='_blank'>Atsuki Sato</a>&emsp;
     <a href='https://www.linkedin.com/in/shota-onohara/' target='_blank'>Shota Onohara</a>&emsp;
     Hiromasa Yamanishi&emsp;
     Mashiro Toyooka&emsp;
