@@ -1,4 +1,5 @@
 # WebChoreArena: Evaluating Web Browsing Agents on Realistic Tedious Web Tasks
+[**🌐HP**](https://webchorearena.github.io/) | [**📖 arXiv**](https://arxiv.org/abs/2506.01952) | [**GitHub**](https://github.com/WebChoreArena/WebChoreArena)
 
 
 <p align="center" width="100%">
