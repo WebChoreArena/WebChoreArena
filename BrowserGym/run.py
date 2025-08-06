@@ -177,7 +177,7 @@ WARNING this demo agent will soon be moved elsewhere. Expect it to be removed at
 
     task_id = args.task_name.split(".")[-1]
     task_id_int = int(task_id)
-    # 結局task_idがstrになってしまっているので全てがuse_screenshot = Falseになっている
+    
     if args.observation_type == "auto":
         if task_id_int in [10110, 10111, 10280, 10281, 10282, 10283, 10284, 50120, 50121, 50122, 50123, 50124]:
             args.use_screenshot = True

@@ -6,6 +6,7 @@
 
 ```bash
 pip install browsergym
+pip install playwright==1.50.0
 playwright install chromium
 ```
 
@@ -56,6 +57,12 @@ bash scripts/claude/shopping/shopping_tips.sh
 ```
 
 You can check the results in `./results/`.
+
+Then, you can show the score by the following command:
+```bash
+bash utils/calc_score.py <result_path>
+```
+
 
 ## Notes and Recommendations
 ### 1. Environment Reset

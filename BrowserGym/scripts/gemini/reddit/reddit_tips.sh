@@ -11,7 +11,7 @@ RESULT_DIR="results/reddit/${TYPE}/${MODEL}/webchorearena.${task_id}"
 
   if [ -d "$RESULT_DIR" ]; then
     echo "Skipping ${task_id} (already exists)"
-    contin
+    continue
   fi
   if [[ "$task_id" == 30170 || "$task_id" == 30171 || "$task_id" == 30172 || "$task_id" == 30173 || "$task_id" == 30174 ]]; then
     echo "Restart reddit...$task_id"
