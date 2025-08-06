@@ -19,8 +19,13 @@ from evaluation_harness.actions import Action
 from evaluation_harness.utils import StateInfo
 from evaluation_harness.helper_functions import (
     PseudoPage,
+    gitlab_get_project_memeber_role,
     llm_fuzzy_match,
     llm_ua_match,
+    reddit_get_post_url,
+    shopping_get_latest_order_url,
+    shopping_get_sku_latest_review_author,
+    shopping_get_sku_latest_review_rating,
 )
 
 Trajectory = list[Union[Action, StateInfo]]
