@@ -1,5 +1,5 @@
 # WebChoreArena: Evaluating Web Browsing Agents on Realistic Tedious Web Tasks
-[**🌐HP**](https://webchorearena.github.io/) | [**📖 arXiv**](https://arxiv.org/abs/2506.01952) | [**GitHub**](https://github.com/WebChoreArena/WebChoreArena)
+[**🌐HP**](https://webchorearena.github.io/) | [**📖 arXiv**](https://arxiv.org/abs/2506.01952) | [**GitHub**](https://github.com/WebChoreArena/WebChoreArena) | [**LeaderBoard**](https://docs.google.com/spreadsheets/d/1RGyJ0QOxGj196KTfUK0SZeVl5IkM928_38wzIkQVxCs/edit)
 
 
 <p align="center" width="100%">
@@ -33,6 +33,7 @@
 | <p align="justify"><b>Figure 1. The Overview of The WebChoreArena Challenge.</b> WebChoreArena extends WebArena by introducing more complex and labor-intensive tasks, pushing the boundaries of agent capabilities. This enhanced benchmark allows for a clearer evaluation of progress in advanced models and reveals that even powerful models such as Gemini 2.5 Pro still have significant room for improvement.
 
 ## 🚀 News
+- 2025.08: We add a leaderboard for the research community.
 - 2025.05: We make this codebase public.
 
 
@@ -107,13 +108,14 @@ Running the full WebChoreArena benchmark can cost several hundred dollars in API
 
 |               |                  | Shopping | Admin | Reddit | GitLab | Cross | Overall |
 |---------------|------------------|----------|-------|--------|--------|--------|---------|
-| **AgentOccam**| GPT-4o           | 10.3     | 4.5   | 9.9    | 7.1    | 0.0    | 6.8     |
-|               | Claude 3.7 Sonnet| 27.4     | 28.8  | 23.1   | 22.8   | 7.7    | 23.5    |
-|               | Gemini 2.5 Pro   | 41.9     | 42.4  | 44.0   | 38.6   | 10.8   | 37.8    |
-| **BrowserGym**| GPT-4o           | 0.9      | 2.3   | 5.5    | 3.9    | 0.0    | 2.6     |
-|               | Claude 3.7 Sonnet| 16.2     | 26.5  | 18.7   | 25.2   | 30.8   | 23.1    |
-|               | Gemini 2.5 Pro   | 47.9     | 50.0  | 44.0   | 40.2   | 40.0   | 44.9    |
+| **AgentOccam**| GPT-4o (2024-05-13)         | 10.3     | 4.5   | 9.9    | 7.1    | 0.0    | 6.8     |
+|               | Claude 3.7 Sonnet (claude-3-7-sonnet-20250219)| 27.4     | 28.8  | 23.1   | 22.8   | 7.7    | 23.5    |
+|               | Gemini 2.5 Pro (preview-03-25)*  | 41.9     | 42.4  | 44.0   | 38.6   | 10.8   | 37.8    |
+| **BrowserGym**| GPT-4o (2024-05-13)     | 0.9      | 2.3   | 5.5    | 3.9    | 0.0    | 2.6     |
+|               | Claude 3.7 Sonnet (claude-3-7-sonnet-20250219)| 16.2     | 26.5  | 18.7   | 25.2   | 30.8   | 23.1    |
+|               | Gemini 2.5 Pro (preview-03-25)*  | 47.9     | 50.0  | 44.0   | 40.2   | 40.0   | 44.9    |
 
+*: Currently, preview-03-25 is being redirected to the latest stable version, and we have observed a performance degradation with the updated model. We will add these results later.
 
 
 ## 🤝 Acknowledgement
