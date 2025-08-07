@@ -59,8 +59,8 @@ bash scripts/claude/shopping/shopping_tips.sh
 You can check the results in `./results/`.
 
 Then, you can show the score by the following command:
-```bash
-bash utils/calc_score.py <result_path>
+```python
+python utils/calc_score.py <result_path>
 ```
 
 
@@ -79,13 +79,13 @@ Error logs will be recorded in the `summary_info.json` file inside each result f
 We recommend running the `utils/error_check.py` script after completing the evaluation to identify how many errors occurred in the result directory.
 You can use the script as follows:
 
-```bash
+```python
 python utils/error_check.py <result_dir>
 ```
 
 Then, remove the erroneous result files by moving them to the `trash` directory using the following command:
 
-```bash
+```python
 python utils/move2trash.py <result_dir>
 ```
 When re-running the evaluation for failed tasks, make sure to restart the environment beforehand.
