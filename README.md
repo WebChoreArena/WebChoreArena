@@ -1,4 +1,4 @@
-# WebChoreArena: Evaluating Web Browsing Agents on Realistic Tedious Web Tasks
+# WebChoreArena: Evaluating Web Browsing Agents on Realistic Tedious Web Tasks [COLM2026]
 [**🌐HP**](https://webchorearena.github.io/) | [**📖 arXiv**](https://arxiv.org/abs/2506.01952) | [**GitHub**](https://github.com/WebChoreArena/WebChoreArena) | [**LeaderBoard**](https://docs.google.com/spreadsheets/d/1RGyJ0QOxGj196KTfUK0SZeVl5IkM928_38wzIkQVxCs/edit)
 
 
